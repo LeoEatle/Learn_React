@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" >
+		<meta name="viewport"  content="width=device-width, initial-scale=1.0" />
+		<!-- Material Design fonts -->
+
+		<link rel="stylesheet" type="text/css"
+			href="css/googleapis_css.css" />
+		<link rel="stylesheet" type="text/css"
+			href="css/googleapis_icon.css" />
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Bootstrap Material Design -->
+		<link rel="stylesheet" type="text/css"
+			href="css/bootstrap-material-design.css">
+		<link rel="stylesheet" type="text/css" href="css/ripples.min.css">
+		<!--引用react相关库-->
+	    <script src="build/react.js"></script>
+	    <script src="build/react-dom.js"></script>
+	    <script src="build/browser.min.js"></script>
+		<script src="build/jquery.min.js"></script>
+		<title>支持银行列表</title>
+		<style>
+			#content
+			{
+				width: 100%;
+			}
+			#return_btn
+			{
+				float: left;
+			}
+			#title
+			{
+				width: 100%;
+				height: 40px;
+				position:fixed ;
+				top: 0px;
+				margin-top: 0px;
+				text-align: center;
+				color: #F1F1F1;
+				
+				
+			}
+			#category
+			{
+				margin-top: 40px;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<!--<div id="title">
+				<button id="return_btn">返回</button>
+				支持银行列表
+			</div>-->
+			<ul id="title" class="nav nav-tabs" >
+			   <li id="return_btn"><a href="javascript:void(0)">← 返回</a></li>
+			   支持银行列表
+			</ul>	
+				
+			<div id="category" class="btn-group btn-group-justified btn-group-raised">
+			  <a href="javascript:void(0)" class="btn ">支持ApplePay银行卡</a>
+			  <a href="javascript:void(0)" class="btn ">钱包可读取银行卡</a>
+			</div>
+			
+			<div class="btn-group-vertical" id="bank_list">
+			  <a href="javascript:void(0)" class="btn btn-raised">Button</a>
+			  
+			</div>
+			
+		</div>
+		<script type="text/javascript" src="build/jquery.min.js"></script>
+		<script type="text/javascript" src="build/bootstrap.min.js"></script>
+		<script type="text/javascript" src="build/material.min.js"></script>
+		<script type="text/javascript" src="build/ripples.min.js"></script>
+	</body>
+</html>
