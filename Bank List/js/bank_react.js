@@ -39,7 +39,7 @@ var BankList = React.createClass({
                 </ul>
             );
         });
-        return (
+        return (        
             <div className="bankList">
                 {bankNodes}
             </div>
