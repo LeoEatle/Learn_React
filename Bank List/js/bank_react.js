@@ -33,13 +33,13 @@ var BankList = React.createClass({
             //是否还有其他方案来赋予key值?
             index = index + 1
             return (
-                <ul key = {index} >
-                    <li key = "name" >{bank.bankname}</li>
-                    <li key = "card">{bank.card}</li>
+                <ul key={index}>
+                    <li  >{bank.bankname}</li>
+                    <li >{bank.card}</li>
                 </ul>
             );
         });
-        return (        
+        return (
             <div className="bankList">
                 {bankNodes}
             </div>
